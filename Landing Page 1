@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LandPage</title>
+    <link rel="stylesheet" href="./LandingPage1.css" type="text/css" />
+  </head>
+  <body>
+    <header class="head1">
+      <img src="./img/orange-1618917_640.png" alt="" />
+      <nav>
+        <span><a href="#features">Features</a></span>
+        <span><a href="#howitworks">How It Works</a></span>
+        <span><a href="#pricing">Pricing</a></span>
+      </nav>
+    </header>
+    <main>
+      <div class="maincontainer">
+        <h2>Get Your Brand New Giggi Today!</h2>
+        <h3>Subscribe to our newsletter to receive info on the product!</h3>
+        <form action="">
+          <input
+            type="email"
+            placeholder="Enter e-mail address"
+            class="newsletter"
+            id="#mail"
+            required
+          />
+          <button type="submit">Join Us!</button>
+        </form>
+      </div>
+      <div class="container">
+        <div class="attributes">
+          <div class="quality">
+            <img src="./img/high-quality.png" alt="" />
+            <h2>The highest quality on the market!</h2>
+          </div>
+          <div class="quality">
+            <img src="./img/website.png" alt="" />
+            <h2>Our products offers the best performances you can ask for!</h2>
+          </div>
+          <div class="quality">
+            <img src="./img/truck.png" alt="" />
+            <h2>Fast delivery in just 1-2 days!</h2>
+          </div>
+          <div class="quality">
+            <img src="./img/piggy-bank.png" alt="" />
+            <h2>
+              Save your money thanks to our market-breaking competitive prices!
+            </h2>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
